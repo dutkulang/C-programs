@@ -5,7 +5,8 @@
 Preprocessing replaces all macros with their representive values. 
  * define is used to define a macro
  * define NAME value
- *NAME is whatever name you want to call  
+ *NAME is whatever name you want to call it. it is advised to use upper case letters / capital letters when naming your macros.  
+ *define starts with a hash sign '#' to let the compiler know that you defining a macro
  */
 
 #define NAME "Dut Kulang"

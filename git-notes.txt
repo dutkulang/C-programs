@@ -1,0 +1,23 @@
+Here are some commonly used Git commands, along with a brief explanation of what each one does:
+
+git init: Initializes a new Git repository. This creates a hidden .git subdirectory in the current directory, which will store all the information about the changes made to the code.
+
+git clone: Clones an existing Git repository. This is typically used to download a copy of a remote repository from a server, such as a project hosted on GitHub.
+
+git add: Adds a file to the staging area. This stages the file for commit, which means that it will be included in the next snapshot of the repository.
+
+git commit: Saves a snapshot of the repository. This takes all the files that have been staged for commit and saves them as a new version of the repository. Each commit is given a unique identifier, called a "hash," which can be used to refer to the specific version of the code.
+
+git diff: Shows the differences between two versions of a file. This can be used to see what changes have been made to a file since the last commit.
+
+git branch: Lists, creates, or deletes branches. A branch is a separate version of the codebase that can be developed and tested independently.
+
+git checkout: Switches to a different branch. This allows you to switch between different versions of the codebase.
+
+git merge: Merges two branches together. This combines the changes made in one branch with the changes made in another branch, creating a new version of the codebase.
+
+git push: Pushes local commits to a remote repository. This is typically used to upload changes made to a local repository to a remote server, such as a project hosted on GitHub.
+
+git pull: Pulls changes from a remote repository. This is typically used to download changes made to a remote repository and merge them with the local copy of the code.
+
+These are just some of the most commonly used Git commands. There are many other Git commands that can be used for a wide range of tasks, such as managing remote repositories, working with tags, and resolving merge conflicts.

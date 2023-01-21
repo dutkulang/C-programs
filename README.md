@@ -1,0 +1,1 @@
+These programs were created by me during my journey becoming a C software engineer, they might contain errors or might have wrong names, but were created for the sole purpose of learning C programming language

@@ -15,7 +15,7 @@ Preprocessing replaces all macros with their representive values.
 #define AGE 22
 int main(void)
 {
-    printf("Name: %s\nAGE: %d", NAME, AGE);
+    printf("Name: %s\nAGE: %d\n", NAME, AGE);
     
     return 0;
 }

@@ -11,7 +11,7 @@ int main()
     {
 	return x + y;
     }
-    printf("%c\n", add(58,7));
+    printf("%d\n", add(58,7));
     greet("Dut");
     return 0;
 }

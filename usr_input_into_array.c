@@ -6,9 +6,9 @@ int main(void)
 
   for (i = 0; i<5; i++)
     {
-      printf("Enter values for numbers array\n");
+      puts("Enter values for numbers array");
       scanf("%d", &numbers[i]);
-      printf("Numbers = %ls", numbers);
+      printf("%s%d\n", "Numbers = ", numbers[i]);
     }
   //printf("%d", numbers[4]);
   return (0);

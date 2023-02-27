@@ -2,14 +2,15 @@
 
 int main(void)
 {
-    int n = 0;
+    int n = 10;
     if (n > 0)
     {
-        printf("%d is a postive number\n", n);
+      printf("%d%s\n", n, " is a postive number");
     }
 
     else if(n == 0)
     {
+      
         printf("%d is zero\n", n);
     }
 

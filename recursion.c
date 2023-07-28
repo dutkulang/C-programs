@@ -1,25 +1,14 @@
-#include <stdio.h>
+#include "recursion.h"
 
-void _puts_cursion(char *s)
+int zero_func(int num)
+
 {
-    int i;
-    // for (i = 0; s[i] != 0; i++ )
-    // {
-    //     putchar(s[i]);
-    // }
-    // printf("\n");
-    if (s[i] != 0)
-    {   char res = &s[i];
-        puts(res);
-        i++;
+    num--;
+    if (num != 0){
+	zero_func(num);
     }
-    _puts_cursion(s);
-}
+    else{
+	return num;
+    }
 
-
-int main(void)
-{
-    char str[] = "Dut";
-    _puts_cursion(str);
-    return (0);
 }
